@@ -5,7 +5,7 @@ The original is from [Laravel 5 cheatsheet](https://github.com/summerblue/larave
 ##Usage
 
  - Clone the repo
- - Open [this url](chrome://extensions/) from your Chrome browser url bar
+ - Open [this url](chrome://extensions/) - chrome://extensions/ from your Chrome browser url bar
  - Check Developer Mode
  - Click Load unpacked extension...
  - Chose the repo directory you cloned
