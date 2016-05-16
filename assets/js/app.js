@@ -110,7 +110,5 @@ $(function(){
   }
 
 	initExternalLink();
-
-
 });
 

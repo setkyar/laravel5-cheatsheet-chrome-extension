@@ -1,0 +1,33 @@
+{
+  "name": "Laravel 5.1 LTS Cheat Sheet",
+
+  "version": "0.1",
+
+  "manifest_version": 2,
+
+  "description": "Opens up Laravel 5.1 LTS Cheat Sheet",
+
+  "icons": {
+      "128": "icon/128.png",
+      "16": "icon/16.png",
+      "48": "icon/48.png"
+   },
+
+  "background": "docs/index.html",
+
+  "browser_action": {
+    "default_title": "Laravel 5.1 LTS Cheat Sheet",
+    "default_icon": "icon/16.png"
+  },
+
+  "background": {
+    "scripts": ["new_window.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js; object-src 'self'"
+}
